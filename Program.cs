@@ -32,8 +32,8 @@ class Program
         string cadena3 = "Si puedes soñarlo, puedes hacerlo";
 
         // Verificar si las cadenas son nulas o están vacías
-        Console.WriteLine("¿La cadena1 es nula o vacía? " + string.IsNullOrEmpty(cadena1)); 
-        Console.WriteLine("¿La cadena2 es nula o vacía? " + string.IsNullOrEmpty(cadena2)); 
+        Console.WriteLine("¿La cadena1 es nula o vacía? " + string.IsNullOrEmpty(cadena1));
+        Console.WriteLine("¿La cadena2 es nula o vacía? " + string.IsNullOrEmpty(cadena2));
         Console.WriteLine("¿La cadena3 es nula o vacía? " + string.IsNullOrEmpty(cadena3));
 
         // USO DE IsNullOrWhiteSpace
@@ -42,14 +42,14 @@ class Program
         string otraCadena3 = "    ";
 
         // Verificar si las cadenas son nulas, vacías o contienen solo espacios en blanco
-        Console.WriteLine("¿La cadena1 es nula, vacía o contiene solo espacios en blanco? " + string.IsNullOrWhiteSpace(otraCadena1)); 
-        Console.WriteLine("¿La cadena2 es nula, vacía o contiene solo espacios en blanco? " + string.IsNullOrWhiteSpace(otraCadena2)); 
-        Console.WriteLine("¿La cadena3 es nula, vacía o contiene solo espacios en blanco? " + string.IsNullOrWhiteSpace(otraCadena3)); 
+        Console.WriteLine("¿La cadena1 es nula, vacía o contiene solo espacios en blanco? " + string.IsNullOrWhiteSpace(otraCadena1));
+        Console.WriteLine("¿La cadena2 es nula, vacía o contiene solo espacios en blanco? " + string.IsNullOrWhiteSpace(otraCadena2));
+        Console.WriteLine("¿La cadena3 es nula, vacía o contiene solo espacios en blanco? " + string.IsNullOrWhiteSpace(otraCadena3));
 
         // USO DE EMPTY
         string cadenaVacia = string.Empty;
 
         // Imprimir la cadena vacía
-        Console.WriteLine("La cadena vacía es: " + cadenaVacia); 
+        Console.WriteLine("La cadena vacía es: " + cadenaVacia);
     }
 }
